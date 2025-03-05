@@ -20,12 +20,12 @@ h1 {
 }
 
 .choice img {
-    width: 150px;  /* Ensures all images have the same width */
-    height: 150px; /* Ensures all images have the same height */
-    object-fit: cover; /* Ensures images maintain aspect ratio and fill the space */
-    margin: 10px;  /* Adds spacing between images */
-    border-radius: 10px; /* Optional: adds rounded corners for a polished look */
-    display: inline-block; /* Keeps images aligned properly */
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover;
+    margin: 10px;  
+    border-radius: 10px; 
+    display: inline-block; 
 }
 
 
