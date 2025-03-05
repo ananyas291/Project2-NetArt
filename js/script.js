@@ -14,9 +14,16 @@ function showInfluence(choice) {
         case "youtube":
             message = "YouTube's autoplay feature keeps you watching. How much of your choice is habit, and how much is tech design? 🔄🎥";
             break;
+        case "Jeans":
+            message = "Are you wearing jeans because you want to? Or is it due to fashion trends on social media?";
+            break;
+        case "Skirt":
+            message = "Are you wearing a skirt because you want to? Or is it due to fashion trends on social media?";
+            break;
         default:
             message = "Is this your choice, or have you been influenced?";
     }
 
     document.getElementById("result").innerText = message;
 }
+
